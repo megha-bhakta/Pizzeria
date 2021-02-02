@@ -14,6 +14,7 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatButtonModule} from '@angular/material/button';
 import { MatCardModule} from '@angular/material/card';
 import { MatGridListModule} from '@angular/material/grid-list';
+import { MenuComponent } from './components/menu/menu.component';
 
 
 
@@ -23,7 +24,8 @@ import { MatGridListModule} from '@angular/material/grid-list';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
