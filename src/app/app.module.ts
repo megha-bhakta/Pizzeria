@@ -15,6 +15,8 @@ import { MatButtonModule} from '@angular/material/button';
 import { MatCardModule} from '@angular/material/card';
 import { MatGridListModule} from '@angular/material/grid-list';
 import { MenuComponent } from './components/menu/menu.component';
+import { MatDividerModule} from '@angular/material/divider';
+
 
 
 
@@ -34,7 +36,8 @@ import { MenuComponent } from './components/menu/menu.component';
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
