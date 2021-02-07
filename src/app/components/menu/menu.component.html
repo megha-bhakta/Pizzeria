@@ -1,123 +1,23 @@
-<div class="container"
-     fxLayout="column"
+<div fxFlex *ngIf="pizza"
+     class="container"
+     fxLayout="row"
      fxLayout.sm="column"
      fxLayoutGap="50px"
      fxFlexAlign="stretch"
       fxLayoutAlign="center center">
-
-    <mat-card  class="example-card" tabindex="1" fxflex fxLayoutGap="20px">
+    <div class="row">
+    <div class="col-md-3" *ngFor="let pizza of pizza"  >
+    <mat-card   class="example-card" tabindex="1" fxflex fxLayoutGap="20px">
       <mat-card-header>
         <mat-card-title>
-          <img mat-card-image src="/assets/images/PaneerMakhni.jpg">
+          <img mat-card-image src="{{pizza.name}}">
+          <img height="200px" src="{{ baseURL + pizza.image }}" alt={{pizza.name}}>
         </mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <p>Flavorful trio of juicy paneer,crisp capsicum with spicy red paprika</p>
+        <p>{{pizza.description}}</p>
       </mat-card-content>
     </mat-card>
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="20px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/vegextra.png">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese</p>
-      </mat-card-content>
-    </mat-card>
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="20px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/CornCheese.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Sweet Golden corn and 100% real mozzarella cheese in a delectable combination !</p>
-      </mat-card-content>
-    </mat-card>
-</div>
-<div class="container"
-fxLayout="column"
-fxLayout.sm="column"
-fxLayoutGap="50px"
-fxFlexAlign="stretch"
- fxLayoutAlign="center center">
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/DeluxeVeggie.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Veg delight - onion, capsicum, grilled mushroom, corn & paneer</p>
-      </mat-card-content>
-
-    </mat-card>
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/Farmhouse.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Delightful combination of onion, capsicum, tomato & grilled mushroom </p>
-      </mat-card-content>
-    </mat-card>
-
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/FreshVeggie.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Delectable combination of onion & capsicum, a veggie lovers pick </p>
-      </mat-card-content>
-    </mat-card>
-</div>
-
-<div class="container"
-fxLayout="column"
-fxLayout.sm="column"
-fxLayoutGap="50px"
-fxFlexAlign="stretch"
- fxLayoutAlign="center center">
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/MexicanGreenWave.jpeg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno</p>
-      </mat-card-content>
-
-    </mat-card>
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/VeggieParadise.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>The awesome foursome! Golden corn, black olives, capsicum, red paprika</p>
-      </mat-card-content>
-    </mat-card>
-
-
-    <mat-card class="example-card" tabindex="1" fxflex fxLayoutGap="10px">
-      <mat-card-header>
-        <mat-card-title>
-          <img mat-card-image src="/assets/images/DoubleCheeseMargherita.jpg">
-        </mat-card-title>
-      </mat-card-header>
-      <mat-card-content>
-        <p>A classic delight loaded with extra 100% real mozzarella cheese </p>
-      </mat-card-content>
-    </mat-card>
-</div>
+  </div>
+  </div>
+  </div>

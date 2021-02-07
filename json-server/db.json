@@ -1,0 +1,86 @@
+{
+  "menu": [
+    {
+      "id": "1",
+      "name": "Double Cheese Margharita",
+      "image": "images/DoubleCheeseMargherita.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "A classic delight loaded with extra 100% real mozzarella cheese."
+	},
+      {
+      "id": "2",
+      "name": "Corn & Cheese",
+      "image": "images/CornCheese.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Sweet Golden corn and 100% real mozzarella cheese in a delectable combination!"
+	},  
+	 {
+      "id": "3",
+      "name": "Fresh Veggie",
+      "image": "images/FreshVeggie.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Delectable combination of onion & capsicum, a veggie lovers pick."
+	}, 
+	 
+	  {
+      "id": "4",
+      "name": "Paneer Makhni",
+      "image": "images/PaneerMakhni.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Flavorful trio of juicy paneer,crisp capsicum with spicy red paprika."
+	},
+	 {
+      "id": "5",
+      "name": "Farmhouse",
+      "image": "images/Farmhouse.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom."
+	},
+	 {
+      "id": "6",
+      "name": "Deluxe Veggie",
+      "image": "images/DeluxeVeggie.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Veg delight - onion, capsicum, grilled mushroom, corn & paneer."
+	},	
+	 {
+      "id": "7",
+      "name": " Mexican Green Wave",
+      "image": "images/DoubleCheeseMargherita.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno."
+	},
+	 {
+      "id": "8",
+      "name": "Extraveganza",
+      "image": "images/vegextra.jpeg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese."
+	}, 
+	 {
+      "id": "9",
+      "name": "Veggie Paradise",
+      "image": "images/VeggieParadise.jpg",
+      "category": "veg",
+      "featured": true,
+      "price": "",
+      "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika."
+	}    
+  ]
+}
