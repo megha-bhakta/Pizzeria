@@ -1,12 +1,12 @@
 {
-  "menu": [
+  "vegmenu": [
     {
       "id": "1",
       "name": "Double Cheese Margharita",
       "image": "images/DoubleCheeseMargherita.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "335",
       "description": "A classic delight loaded with extra 100% real mozzarella cheese."
 	},
       {
@@ -15,26 +15,26 @@
       "image": "images/CornCheese.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "305",
       "description": "Sweet Golden corn and 100% real mozzarella cheese in a delectable combination!"
-	},  
+	},
 	 {
       "id": "3",
       "name": "Fresh Veggie",
       "image": "images/FreshVeggie.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "335",
       "description": "Delectable combination of onion & capsicum, a veggie lovers pick."
-	}, 
-	 
+	},
+
 	  {
       "id": "4",
       "name": "Paneer Makhni",
       "image": "images/PaneerMakhni.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "395",
       "description": "Flavorful trio of juicy paneer,crisp capsicum with spicy red paprika."
 	},
 	 {
@@ -43,7 +43,7 @@
       "image": "images/Farmhouse.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "395",
       "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom."
 	},
 	 {
@@ -52,35 +52,94 @@
       "image": "images/DeluxeVeggie.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "450",
       "description": "Veg delight - onion, capsicum, grilled mushroom, corn & paneer."
-	},	
+	},
 	 {
       "id": "7",
       "name": " Mexican Green Wave",
       "image": "images/DoubleCheeseMargherita.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "395",
       "description": "Mexican herbs sprinkled on onion, capsicum, tomato & jalapeno."
 	},
 	 {
       "id": "8",
-      "name": "Extraveganza",
-      "image": "images/vegextra.jpeg",
+      "name": "Veg Extraveganza",
+      "image": "images/vegextra.png",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "450",
       "description": "Black olives, capsicum, onion, grilled mushroom, corn, tomato, jalapeno & extra cheese."
-	}, 
+	},
 	 {
       "id": "9",
       "name": "Veggie Paradise",
       "image": "images/VeggieParadise.jpg",
       "category": "veg",
       "featured": true,
-      "price": "",
+      "price": "395",
       "description": "The awesome foursome! Golden corn, black olives, capsicum, red paprika."
-	}    
+	}
+  ],
+
+
+  "nonvegmenu": [
+    {
+      "id": "1",
+      "name": "Chicken Dominator",
+      "image": "images/ChickenDominator.jpg",
+      "category": "nonveg",
+      "featured": true,
+      "price": "570",
+      "description": "Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka & grilled chicken rashers."
+	},
+      {
+      "id": "2",
+      "name": "Peri Peri Chicken",
+      "image": "images/Peri-PeriChicken.jpg",
+      "category": "nonveg",
+      "featured": true,
+      "price": "570",
+      "description": "A classic American taste! Relish the delectable flavor of Peri Peri Chicken, topped with extra cheese."
+	},
+	 {
+      "id": "3",
+      "name": "Chicken Sausage",
+      "image": "images/ChickenSausage.jpg",
+      "category": "nonveg",
+      "featured": true,
+      "price": "305",
+      "description": "American classic! Spicy, herbed chicken sausage on pizza."
+	},
+
+	  {
+      "id": "4",
+      "name": "Chunky Chicken",
+      "image": "images/chunky-chicken.png",
+      "category": "nonveg",
+      "featured": true,
+      "price": "450",
+      "description": "Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete chunky chicken"
+	},
+	 {
+      "id": "5",
+      "name": "Non-Veg Supreme",
+      "image": "images/Non-Veg_Supreme.jpg",
+      "category": "nonveg",
+      "featured": true,
+      "price": "570",
+      "description": "Supreme combination of black olives, onion, capsicum, grilled mushroom, pepper barbecue chicken, peri-peri chicken & grilled chicken rashers."
+	},
+	 {
+      "id": "6",
+      "name": "Pepper Barbeque & Onion",
+      "image": "images/PepperBarbequeOnion.jpg",
+      "category": "nonveg",
+      "featured": true,
+      "price": "395",
+      "description": "A classic favourite with pepper barbeque chicken & onion."
+	}
   ]
 }

@@ -13,7 +13,11 @@ export class PizzamenuService {
   constructor(private http:HttpClient, ) {}
 
 
-  getPizza(): Observable<Pizza[]>{
-      return this.http.get<Pizza[]>(baseURL + 'menu');
+  getVegPizza(): Observable<Pizza[]>{
+      return this.http.get<Pizza[]>(baseURL + 'vegmenu');
   }
+
+  getNonVegPizza(): Observable<Pizza[]>{
+    return this.http.get<Pizza[]>(baseURL + 'nonvegmenu');
+}
 }

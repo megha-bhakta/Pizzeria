@@ -14,7 +14,7 @@ export class MenuComponent implements OnInit {
     @Inject('baseURL') public baseURL) { }
 
   ngOnInit(): void {
-    this.menuService.getPizza().subscribe(pizza => this.pizza = pizza)
+    this.menuService.getVegPizza().subscribe(pizza => this.pizza = pizza)
   }
 
 

@@ -1,12 +1,18 @@
-<div fxFlex *ngIf="pizza"
+<!-- <div fxFlex *ngIf="pizza"
      class="container"
      fxLayout="row"
      fxLayout.sm="column"
      fxLayoutGap="50px"
      fxFlexAlign="stretch"
-      fxLayoutAlign="center center">
-    <div class="row">
-    <div class="col-md-3" *ngFor="let pizza of pizza"  >
+      fxLayoutAlign="center center">-->
+       <div fxFlex>
+    <div>
+      <h3>Veg Pizzas</h3>
+      <hr>
+    </div>
+  </div>
+
+ <!--    <div *ngFor="let pizza of pizza"  >
     <mat-card   class="example-card" tabindex="1" fxflex fxLayoutGap="20px">
       <mat-card-header>
         <mat-card-title>
@@ -19,5 +25,20 @@
       </mat-card-content>
     </mat-card>
   </div>
+</div> -->
+
+
+
+  <div fxFlex>
+  <mat-grid-list cols="3" rowHeight="300px">
+
+    <mat-grid-tile *ngFor="let pizza of pizza">
+      <img height="200px" src="{{ baseURL + pizza.image }}" alt={{pizza.name}}>
+      <mat-grid-tile-footer>
+        <h1 matLine>{{pizza.name| uppercase}}</h1>
+        <h1> {{pizza.price | currency: 'INR':true}}</h1>
+      </mat-grid-tile-footer>
+    </mat-grid-tile>
+  </mat-grid-list>
   </div>
-  </div>
+

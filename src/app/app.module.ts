@@ -19,6 +19,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { MatDividerModule} from '@angular/material/divider';
 import { PizzamenuService } from './services/pizzamenu.service';
 import { baseURL } from './baseURL';
+import { NvmenuComponent } from './components/nvmenu/nvmenu.component';
 
 
 
@@ -30,7 +31,8 @@ import { baseURL } from './baseURL';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
-    MenuComponent
+    MenuComponent,
+    NvmenuComponent
   ],
   imports: [
     BrowserModule,

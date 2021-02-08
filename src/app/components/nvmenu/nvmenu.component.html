@@ -1,0 +1,20 @@
+<div fxFlex>
+  <div>
+    <h3>Non-Veg Pizzas</h3>
+    <hr>
+  </div>
+  </div>
+
+  <div fxFlex>
+    <mat-grid-list cols="3" rowHeight="300px">
+
+      <mat-grid-tile *ngFor="let pizza of pizza">
+        <img height="200px" src="{{ baseURL + pizza.image }}" alt={{pizza.name}}>
+                <mat-grid-tile-footer>
+          <h1 matLine>{{pizza.name| uppercase}}  </h1>
+          <h1> {{pizza.price | currency: 'INR':true}}</h1>
+
+        </mat-grid-tile-footer>
+      </mat-grid-tile>
+    </mat-grid-list>
+    </div>
