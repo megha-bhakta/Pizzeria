@@ -8,7 +8,7 @@
   <div fxFlex>
     <mat-grid-list cols="3" rowHeight="300px">
 
-      <mat-grid-tile *ngFor="let pizza of pizza">
+      <mat-grid-tile *ngFor="let pizza of pizza" [routerLink]="['/menudetail', pizza.id]" appHighlight>
         <img height="200px" src="{{ baseURL + pizza.image }}" alt={{pizza.name}}>
                 <mat-grid-tile-footer>
           <h1 matLine>{{pizza.name| uppercase}}  </h1>
