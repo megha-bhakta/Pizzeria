@@ -9,7 +9,11 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NvmenuComponent } from './components/nvmenu/nvmenu.component';
+import { MenudetailsComponent } from './components/menudetails/menudetails.component';
+import { PizzamenuService } from './services/pizzamenu.service';
 import { routes } from './routes';
+import { baseURL } from './baseURL';
 
 import { MatToolbarModule} from '@angular/material/toolbar';
 import { MatButtonModule} from '@angular/material/button';
@@ -17,12 +21,7 @@ import { MatCardModule} from '@angular/material/card';
 import { MatGridListModule} from '@angular/material/grid-list';
 import { MenuComponent } from './components/menu/menu.component';
 import { MatDividerModule} from '@angular/material/divider';
-import { PizzamenuService } from './services/pizzamenu.service';
-import { baseURL } from './baseURL';
-import { NvmenuComponent } from './components/nvmenu/nvmenu.component';
-import { MenudetailsComponent } from './components/menudetails/menudetails.component';
-
-
+import { MatIconModule} from '@angular/material/icon';
 
 
 
@@ -45,7 +44,8 @@ import { MenudetailsComponent } from './components/menudetails/menudetails.compo
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
-    MatDividerModule
+    MatDividerModule,
+    MatIconModule
   ],
   providers: [PizzamenuService,
     {provide: 'baseURL', useValue: baseURL}],

@@ -87,7 +87,7 @@
 
   "nonvegmenu": [
     {
-      "id": "1",
+      "id": "11",
       "name": "Chicken Dominator",
       "image": "images/ChickenDominator.jpg",
       "category": "nonveg",
@@ -96,7 +96,7 @@
       "description": "Loaded with double pepper barbecue chicken, peri-peri chicken, chicken tikka & grilled chicken rashers."
 	},
       {
-      "id": "2",
+      "id": "12",
       "name": "Peri Peri Chicken",
       "image": "images/Peri-PeriChicken.jpg",
       "category": "nonveg",
@@ -105,7 +105,7 @@
       "description": "A classic American taste! Relish the delectable flavor of Peri Peri Chicken, topped with extra cheese."
 	},
 	 {
-      "id": "3",
+      "id": "13",
       "name": "Chicken Sausage",
       "image": "images/ChickenSausage.jpg",
       "category": "nonveg",
@@ -115,7 +115,7 @@
 	},
 
 	  {
-      "id": "4",
+      "id": "14",
       "name": "Chunky Chicken",
       "image": "images/chunky-chicken.png",
       "category": "nonveg",
@@ -124,7 +124,7 @@
       "description": "Grilled chicken rashers, peri-peri chicken, onion & capsicum, a complete chunky chicken"
 	},
 	 {
-      "id": "5",
+      "id": "15",
       "name": "Non-Veg Supreme",
       "image": "images/Non-Veg_Supreme.jpg",
       "category": "nonveg",
@@ -133,7 +133,7 @@
       "description": "Supreme combination of black olives, onion, capsicum, grilled mushroom, pepper barbecue chicken, peri-peri chicken & grilled chicken rashers."
 	},
 	 {
-      "id": "6",
+      "id": "16",
       "name": "Pepper Barbeque & Onion",
       "image": "images/PepperBarbequeOnion.jpg",
       "category": "nonveg",

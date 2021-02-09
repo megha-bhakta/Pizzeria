@@ -21,8 +21,10 @@ export class MenudetailsComponent implements OnInit {
   ngOnInit() {
     this.pizzamenuService.getVegIds().subscribe(vegId => this.vegId= vegId);
     this.activatedRoute.params.pipe(switchMap((params: Params) => this.pizzamenuService.getVegPizzas(params['id'])))
+    .subscribe(pizza =>(this.pizza=pizza));
     this.pizzamenuService.getNonVegIds().subscribe(nonvegId => this.nonvegId= nonvegId);
     this.activatedRoute.params.pipe(switchMap((params: Params) => this.pizzamenuService.getNonVegPizzas(params['id'])))
+    .subscribe(pizza =>(this.pizza=pizza));
   }
 
 }
