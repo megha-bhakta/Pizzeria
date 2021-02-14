@@ -9,12 +9,12 @@ import { PizzamenuService } from 'src/app/services/pizzamenu.service';
 })
 export class HomeComponent implements OnInit {
 
-  pizza:Pizza;
+  pizza : Pizza;
   constructor( @Inject('baseURL') public baseURL: string,
                 private pizzamenuService:PizzamenuService) { }
 
   ngOnInit(): void {
-    this.pizzamenuService.getFeaturedPizza().subscribe(pizza =>this.pizza=pizza)
+    this.pizzamenuService.getFeaturedPizza().subscribe(pizza => this.pizza = pizza);
   }
 
 }

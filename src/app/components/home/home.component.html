@@ -1,11 +1,5 @@
 <div class="container"
-     fxLayout="row"
-     fxLayout.sm="column"
-     fxLayout.xs="column"
-     fxLayoutAlign.gt-md="space-around center"
-     fxLayoutGap="10px">
-
-
+     fxLayout="row">
 
      <div fxFlex>
       <div>
@@ -18,7 +12,6 @@
     <div>
       <mat-card *ngIf="pizza" >
                 <mat-card-header>
-          <div mat-card-avatar></div>
           <mat-card-title>
             <h3>{{pizza.name | uppercase}}</h3>
           </mat-card-title>
