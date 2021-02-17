@@ -14,7 +14,8 @@ export class HomeComponent implements OnInit {
                 private pizzamenuService:PizzamenuService) { }
 
   ngOnInit(): void {
-    this.pizzamenuService.getFeaturedPizza().subscribe(pizza => this.pizza = pizza);
+    this.pizzamenuService.getFeaturedeVegPizza().subscribe(pizza => this.pizza = pizza);
+    this.pizzamenuService.getFeaturedNonVegPizza().subscribe(pizzas => this.pizza = pizzas);
   }
 
 }

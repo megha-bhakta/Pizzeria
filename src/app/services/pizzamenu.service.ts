@@ -38,7 +38,11 @@ export class PizzamenuService {
     return this.getNonVegPizza().pipe(map(pizza => pizza.map(pizza => pizza.id)))
   }
 
-  getFeaturedPizza(): Observable<Pizza> {
+  getFeaturedeVegPizza(): Observable<Pizza> {
     return this.http.get<Pizza[]>(baseURL + 'vegmenu?featured=true').pipe(map(pizza => pizza[0]));
+  }
+
+  getFeaturedNonVegPizza(): Observable<Pizza> {
+    return this.http.get<Pizza[]>(baseURL + 'nonvegmenu?featured=true').pipe(map(pizza => pizza[0]));
   }
 }

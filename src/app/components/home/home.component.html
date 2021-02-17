@@ -1,28 +1,10 @@
 <div class="container"
      fxLayout="row">
 
-     <div fxFlex>
-      <div>
-        <h3>Best Sellers</h3>
-        <hr>
-      </div>
-    </div>
 
-
-    <div>
-      <mat-card *ngIf="pizza" >
-                <mat-card-header>
-          <mat-card-title>
-            <h3>{{pizza.name | uppercase}}</h3>
-          </mat-card-title>
-        </mat-card-header>
-        <img mat-card-image src="{{baseURL +pizza.image}}" alt={{pizza.name}}>
-        <mat-card-content>
-          <p>{{pizza.description}}
-          </p>
-        </mat-card-content>
-      </mat-card>
-    </div>
-
+   <div fxFlex>
+     <img src="/assets/images/pizza-delivery.jpeg">
+    <h1>PIZZERIA</h1>
+   </div>
 
 </div>
