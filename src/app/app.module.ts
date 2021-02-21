@@ -22,7 +22,7 @@ import { MatGridListModule} from '@angular/material/grid-list';
 import { MenuComponent } from './components/menu/menu.component';
 import { MatDividerModule} from '@angular/material/divider';
 import { MatIconModule} from '@angular/material/icon';
-
+import { MatListModule} from '@angular/material/list';
 
 
 @NgModule({
@@ -45,7 +45,8 @@ import { MatIconModule} from '@angular/material/icon';
     MatCardModule,
     MatGridListModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatListModule
   ],
   providers: [PizzamenuService,
     {provide: 'baseURL', useValue: baseURL}],
